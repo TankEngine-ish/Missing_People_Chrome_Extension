@@ -1,4 +1,3 @@
-// background.js
 chrome.webRequest.onCompleted.addListener(
     function(details) {
       if (details.statusCode === 404) {
